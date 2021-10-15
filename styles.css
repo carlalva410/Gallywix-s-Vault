@@ -1,4 +1,5 @@
 body {
+  font-family: 'IM Fell English SC', serif;
   margin: 0px;
 }
 
@@ -43,6 +44,14 @@ body {
 .nav-link-wrapper a:hover {
   color: black;
 }
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+color: black !important;
+}
 /* Portfolio styles */
 
 .portfolio-items-wrapper {
@@ -76,7 +85,7 @@ body {
 }
 
 .logo-wrapper img {
-  width: 50%;
+  width: 68%;
   margin-bottom: 20px;
 }
 
@@ -95,4 +104,22 @@ body {
 .img-darken {
   transition: 1s;
   filter: brightness(10%);
+}
+
+/* about style*/
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+}
+
+.profile-content-wrapper {
+  padding: 30px;  
+}
+
+.profile-content-wrapper h1 {
+  color: lightseagreen;
 }
