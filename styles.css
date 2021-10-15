@@ -39,19 +39,19 @@ body {
 }
 
 .nav-link-wrapper:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #282828;
 }
 
 .nav-link-wrapper a:hover {
-  color: black;
+  color: #282828;
 }
 
 .active-nav-link {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #282828;
 }
 
 .active-nav-link a {
-color: black !important;
+color: #282828 !important;
 }
 /* Portfolio styles */
 
